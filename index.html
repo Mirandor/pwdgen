@@ -2,21 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
+
       <header>
         <h1>Password Generator</h1>
       </header>
 
       <div class="card">
         <div class="card-header">
-          <h2>Random Password</h2>
-          <p>Click 'Generate' button to create your random password.</p>
+          <!-- <h2>Generate a Password</h2> -->
         </div>
         <div class="card-body">
           <textarea
@@ -27,10 +27,13 @@
           ></textarea>
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn" onClick="generate();">Generate</button>
+          <button id="generate" class="btn" onclick="promptMe();">Generate</button>
         </div>
-      </div>
+      </div> 
+
     </div>
-    <script src="script-prompts.js"></script>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
